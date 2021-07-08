@@ -1,4 +1,3 @@
-import './App.css';
 import Square from 'Components/Square';
 import ColorInput from 'Components/ColorInput';
 import { useState } from 'react';
