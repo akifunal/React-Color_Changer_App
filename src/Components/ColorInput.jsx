@@ -4,7 +4,6 @@ const ColorInput = ({
 	colorValue,
 	setColorValue,
 	setHexValue,
-	isDarkText,
 	setIsDarkText,
 }) => {
 	const handleChangeColor = e => {

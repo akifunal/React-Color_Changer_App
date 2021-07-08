@@ -18,7 +18,6 @@ const App = () => {
 				colorValue={colorValue}
 				setColorValue={setColorValue}
 				setHexValue={setHexValue}
-				isDarkText={isDarkText}
 				setIsDarkText={setIsDarkText}></ColorInput>
 		</div>
 	);
