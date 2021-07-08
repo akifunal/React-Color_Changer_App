@@ -23,7 +23,6 @@ const ColorInput = ({
 				autoFocus
 				type='text'
 				placeholder='Add color name'
-				required
 				id='colorInput'
 				value={colorValue}
 				onChange={handleChangeColor}
