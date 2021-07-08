@@ -12,10 +12,13 @@ const ColorInput = ({
 		setHexValue(colorNames(e.target.value));
 	};
 
-	const handleTextColor = e => setIsDarkText(prevIsDarkText => !prevIsDarkText);
+	const handleTextColor = () =>
+		setIsDarkText(prevIsDarkText => !prevIsDarkText);
+
+	const handleOnSubmit = e => e.preventDefault();
 
 	return (
-		<form onSubmit={e => e.preventDefault()}>
+		<form onSubmit={handleOnSubmit}>
 			<label>Add Color Name:</label>
 			<input
 				autoFocus
